@@ -1,5 +1,7 @@
 # coffe.delivery
 
 [x] Fix the project structure ✔️
-[] Incremented global styles, and install external fonts ✔️
 
+[x] Incremented global styles and install external fonts ✔️ 
+
+[] Install and configure react-router-dom
