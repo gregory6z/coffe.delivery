@@ -1,6 +1,5 @@
 import { Intro } from "./components/Intro";
 import styles from "./styles.module.scss";
-import caffeeImg from "../../assets/expresso.png";
 import { Minus, Plus, ShoppingCart } from "phosphor-react";
 import { coffees } from "../../context/CoffeeContext";
 
@@ -17,7 +16,7 @@ export function Home() {
             {coffees.map((coffee) => {
               return (
                 <div key={coffee.id} className={styles.card}>
-                  <img src={caffeeImg} alt="" />
+                  <img src={coffee.coffee_img} alt="" />
                   <div>
                     {coffee.tags.map((tag) => {
                       return <span key={coffee.id}>{tag}</span>;
@@ -29,7 +28,7 @@ export function Home() {
                     <div>
                       <p>
                         R$
-                        <strong>{coffee.amount}</strong>
+                        <strong>9,90</strong>
                       </p>
                     </div>
                     <div className={styles.addingCar}>

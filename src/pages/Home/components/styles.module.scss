@@ -6,6 +6,13 @@
   height: 34rem;
   display: flex;
   align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    margin-bottom: 35rem;
+    margin-top: 3rem;
+    padding: 0 1rem;
+  }
 }
 
 .introContainer {
@@ -13,6 +20,10 @@
   justify-content: space-between;
   max-width: 70rem;
   margin: 0 auto;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .titleContainer {
@@ -38,6 +49,10 @@
     font-size: 1.25rem;
     color: var(--base-subtitle);
   }
+  @media (max-width: 768px) {
+    text-align: center;
+    padding: 0 2rem;
+  }
 }
 
 .items {
@@ -49,6 +64,10 @@
 
   p {
     flex-grow: 1;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0 3rem;
   }
 }
 .itemLeft {
@@ -110,4 +129,18 @@
 
 .coffImg {
   position: relative;
+}
+
+.coffImg {
+  img {
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    order: -1;
+    margin-bottom: 3rem;
+  }
+  @media (max-width: 500px) {
+    order: -1;
+    margin-bottom: 3rem;
+  }
 }
