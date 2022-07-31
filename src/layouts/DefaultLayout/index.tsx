@@ -1,14 +1,12 @@
-import { Outlet } from "react-router-dom";
 import { Header } from "../../components/Header";
-import styles from "./styles.module.scss";
+import { LayoutContainer } from "./styles";
+import { Outlet } from "react-router-dom";
 
 export function DefaultLayout() {
   return (
-    <div className={styles.background}>
-      <div className={styles.layoutContainer}>
-        <Header />
-        <Outlet />
-      </div>
-    </div>
+    <LayoutContainer>
+      <Header />
+      <Outlet />
+    </LayoutContainer>
   );
 }
