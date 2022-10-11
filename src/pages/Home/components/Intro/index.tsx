@@ -19,11 +19,11 @@ export function Intro() {
         <div>
           <section>
             <IntroTitle size="xl">
-              Encontre o café perfeito para qualquer hora do dia
+            Trouvez le café parfait à tout moment de la journée
             </IntroTitle>
             <RegularText as="h3" size="l" color="subtitle">
-              Com o Coffee Delivery você recebe seu café onde estiver, a
-              qualquer hora
+            Avec Coffee Delivery vous recevez votre café où que vous soyez,
+            à toute heure
             </RegularText>
           </section>
 
@@ -31,17 +31,17 @@ export function Intro() {
             <InfoWithIcon
               iconBg={colors["brand-yellow-dark"]}
               icon={<ShoppingCart weight="fill" />}
-              text="Compra simples e segura"
+              text="Achat simple et sécurisé"
             />
             <InfoWithIcon
               iconBg={colors["base-text"]}
               icon={<Package weight="fill" />}
-              text="Embalagem mantém o café intacto"
+              text="L'emballage garde le café intact"
             />
             <InfoWithIcon
               iconBg={colors["brand-yellow"]}
               icon={<Timer weight="fill" />}
-              text="Entrega rápida e rastreada"
+              text="Livraison rapide et suivie"
             />
             <InfoWithIcon
               iconBg={colors["brand-purple"]}
