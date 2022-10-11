@@ -22,6 +22,9 @@ Lors de ce challenge, des concepts un peu plus avancés ont été utilisés, dé
 ## ❓ Fonctionnalités
 
 - Panier - ajouter et supprimer des articles
+- Somme d'articles
+- Validation de formulaires - gestion des erreurs
+
 
 &nbsp;
 
