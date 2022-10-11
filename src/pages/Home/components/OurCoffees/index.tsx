@@ -7,7 +7,7 @@ export function OurCoffees() {
   return (
     <OurCoffeesContainer className="container">
       <TitleText size="l" color="subtitle">
-        Nossos cafés
+        Nos cafés
       </TitleText>
 
       <CoffeeList>
