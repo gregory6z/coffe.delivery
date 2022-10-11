@@ -6,8 +6,9 @@
 
 <h1>Coffee Delivery<h1/>
 &nbsp;
-<img src="https://github.com/gregory6z/coffe.delivery/blob/main/public/cafe-img.png?raw=true" width="100%" />
+<img src="https://github.com/gregory6z/coffe.delivery/blob/main/public/cafe-img1.png?raw=true" width="100%" />
   
+
   
 
 &nbsp;
